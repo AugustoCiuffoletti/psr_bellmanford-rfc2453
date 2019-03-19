@@ -30,9 +30,8 @@ tabella_routing={
  'n2':['C',2],
  'n3':['A',4],
  'n4':['B',2],
- 'n5':['B',3],
- 'n6':['C',5]}
+ 'n5':['B',3]}
 
-out = merge(tabella_routing,'C',{'n2':2,'n3':3,'n6':5})
- 
+out = merge(tabella_routing,'C',{'n2':1,'n3':2,'n6':4})
+print("New routing table")
 print(out)
