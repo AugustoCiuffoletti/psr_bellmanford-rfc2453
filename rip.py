@@ -22,13 +22,13 @@ def merge(routing,r_from,advertisement):
 
 # Esempio sugli appunti
 tabella_routing={
- 'n1':['A',1],
- 'n2':['C',1],
- 'n3':['A',3],
- 'n4':['B',1],
- 'n5':['B',2],
+ 'n1':['A',2],
+ 'n2':['C',2],
+ 'n3':['A',4],
+ 'n4':['B',2],
+ 'n5':['B',3],
  'n6':['C',5]}
 
-out = merge(tabella_routing,'C',{'n2':2,'n3':1,'n6':5})
+out = merge(tabella_routing,'C',{'n2':2,'n3':3,'n6':5})
  
 print(out)
